@@ -1,0 +1,78 @@
+.login-page {
+    margin-top : 8%;
+    margin-bottom: 5%;
+}
+
+
+.yogasana-text {
+    font-size: 4rem;
+    font-weight:900;
+    color: #3a689e !important
+}
+
+
+input {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    margin: 15px 1px 1px 0px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    height: 100%;
+
+  }
+
+
+input:focus  {
+    box-shadow: 0 0 5px #3a689e;
+    padding: 10px 0px 10px 10px;
+    margin: 15x 1px 1px 0px;
+    border: 1px solid #3a689e;
+  }
+
+
+
+.login-box , .register-box {
+   background-color: white !important;
+   border-radius: 8px;
+   width: 85%;
+   height: 100%;
+   color : #3a689e;
+   box-shadow: 0 0 15px .1px #16394E;
+}
+
+.btn-pink {
+    width: 100%;
+    background-color: #3a689e !important;   
+    color : white;
+}
+
+
+.btn-green{
+    width: 50%;
+    background-color: #3ea164;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.support , .support a {
+    color: black;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .login-box , .register-box {
+      width: 100%;
+    }
+
+    .yogasana-text {
+        margin-bottom: 3rem;
+    }
+  }

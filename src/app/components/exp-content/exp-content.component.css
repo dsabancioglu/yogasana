@@ -1,0 +1,16 @@
+.text-experience{
+    font-size: 3rem;
+    font-family: 'Poiret One';
+    color: #3a689e;
+}
+
+.card-exp {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: all 0.5s ease-in-out 0s;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.card-exp:hover {
+    transform: scale(1.05);
+}

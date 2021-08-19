@@ -1,0 +1,27 @@
+
+.navbar { 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.navbar-brand{
+    color: #3a689e;
+    font-size: 1.3rem;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    color: #3a689e;
+}
+
+.btn-outline-pink{
+    color : #3a689e;
+    border-color: #3a689e !important;   
+}
+
+.btn-outline-pink:hover{
+    background-color : #3a689e;
+    color: white;
+}
+
+.btn-outline-pink:focus  {
+    box-shadow: none !important;
+  }
